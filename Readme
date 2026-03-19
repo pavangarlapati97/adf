@@ -14,5 +14,11 @@ Linked Service - It's a connection string that contains connection details for s
 Data Set - It represents data structure of the source/sink. i.e. DB Name or File Name, Folder Name. 2 DS for S & Sink.
 Pipeline - It is a collection of activities that perform a task.
 Activity - It represents a processing step in pipeline. Copy, Data Flow, Lookup/Web/Stored Procedure.
+             -Data Factory supports three types of activities: 
+					Data movement activities, data transformation activities, and control activities. 
 Integration Runtime - Compute engine for Data movement. Azure IR, Self hosted IR, Azure SSIS IR.
 Triggers - This allows us to schedule a pipeline for auto execution.
+
+
+
+
