@@ -1,1 +1,18 @@
-This readme file for ADF Learning
+ADF:
+Cloud based ETL tool that can transform at scale. It automates data movement and integration.
+	- A Data integration service that allows you to create Data driven work flows for orchestrating the data movement.
+	- Schedule pipelines that run independently.
+
+Why we need?
+Querying data directly from DB's is costly and resource intensive. 
+Lot of compliance restrictions.
+
+Solution: ADF can copy source data and apply ETL as necessary.
+
+Core components of ADF:
+Linked Service - It's a connection string that contains connection details for source and sink. 2 LS for source & sink.
+Data Set - It represents data structure of the source/sink. i.e. DB Name or File Name, Folder Name. 2 DS for S & Sink.
+Pipeline - It is a collection of activities that perform a task.
+Activity - It represents a processing step in pipeline. Copy, Data Flow, Lookup/Web/Stored Procedure.
+Integration Runtime - Compute engine for Data movement. Azure IR, Self hosted IR, Azure SSIS IR.
+Triggers - This allows us to schedule a pipeline for auto execution.
